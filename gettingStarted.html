@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AngularJs Tutorial">
+  <meta name="author" content="Sathvi">
+  <meta name="keyword" content="AngularJs, AngularJs tutorial, Tutorial, AngularJs Features, Angular">
+  <link rel="shortcut icon" href="img/favicon.png">
+
+  <title>AngularJs Tutorial</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- bootstrap theme -->
+  <link href="css/bootstrap-theme.css" rel="stylesheet">
+  <!--external css-->
+  <!-- font icon -->
+  <link href="css/elegant-icons-style.css" rel="stylesheet" />
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+  <link href="css/prism.css" rel="stylesheet"/>
+
+  <link rel="stylesheet" href="css/fullcalendar.css">
+  <link href="css/widgets.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/style-responsive.css" rel="stylesheet" />
+  <link href="css/jquery-ui-1.10.4.min.css" rel="stylesheet">
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 -->
+  <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+      <script src="js/lte-ie7.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+  <!-- container section start -->
+  <section id="container" class="">
+
+
+    <header class="header dark-bg">
+      <div class="toggle-nav">
+        <div class="icon-reorder tooltips" data-original-title="Toggle Navigation" data-placement="bottom"><i class="icon_menu"></i></div>
+      </div>
+
+      <!--logo start-->
+      <a href="index.html" class="logo">Angular<span class="lite">Tutorial</span></a>
+      <!--logo end-->
+
+      <div class="nav pull-right search-row" id="top_menu">
+        <!--  search form start -->
+        <ul class="nav top-menu">
+          <li>
+            <form class="navbar-form">
+              <input class="form-control" placeholder="Search" type="text">
+            </form>
+          </li>
+        </ul>
+        <!--  search form end -->
+      </div>
+
+      
+    </header>
+    <!--header end-->
+
+    <!--sidebar start-->
+    <aside>
+      <div id="sidebar" class="nav-collapse ">
+        <!-- sidebar menu start-->
+        <ul class="sidebar-menu">
+          <li >
+            <a class="" href="index.html">
+
+              <span>AngularJs Features</span>
+            </a>
+          </li>
+          <li class="active">
+            <a class="" href="index.html">
+
+              <span>Getting Started</span>
+            </a>
+          </li>
+          <li>
+            <a class="" href="gettingStarted.html">
+
+              <span>Expressions & Modules</span>
+            </a>
+          </li>
+          <li class="sub-menu">
+            <a href="javascript:;" class="">
+
+              <span>Forms</span>
+              <span class="menu-arrow arrow_carrot-right"></span>
+            </a>
+            <ul class="sub">
+              <li><a class="" href="form_component.html">Form Elements</a></li>
+              <li><a class="" href="form_validation.html">Form Validation</a></li>
+            </ul>
+          </li>
+          <li class="sub-menu">
+            <a href="javascript:;" class="">
+
+              <span>UI Fitures</span>
+              <span class="menu-arrow arrow_carrot-right"></span>
+            </a>
+            <ul class="sub">
+              <li><a class="" href="general.html">Elements</a></li>
+              <li><a class="" href="buttons.html">Buttons</a></li>
+              <li><a class="" href="grids.html">Grids</a></li>
+            </ul>
+          </li>
+          <li>
+            <a class="" href="widgets.html">
+
+              <span>Widgets</span>
+            </a>
+          </li>
+          <li>
+            <a class="" href="chart-chartjs.html">
+
+              <span>Charts</span>
+
+            </a>
+
+          </li>
+
+          <li class="sub-menu">
+            <a href="javascript:;" class="">
+
+              <span>Tables</span>
+              <span class="menu-arrow arrow_carrot-right"></span>
+            </a>
+            <ul class="sub">
+              <li><a class="" href="basic_table.html">Basic Table</a></li>
+            </ul>
+          </li>
+
+          <li class="sub-menu">
+            <a href="javascript:;" class="">
+
+              <span>Pages</span>
+              <span class="menu-arrow arrow_carrot-right"></span>
+            </a>
+            <ul class="sub">
+              <li><a class="" href="profile.html">Profile</a></li>
+              <li><a class="" href="login.html"><span>Login Page</span></a></li>
+              <li><a class="" href="blank.html">Blank Page</a></li>
+              <li><a class="" href="404.html">404 Error</a></li>
+            </ul>
+          </li>
+
+        </ul>
+        <!-- sidebar menu end-->
+      </div>
+    </aside>
+    <!--sidebar end-->
+
+    <!--main content start-->
+    <section id="main-content">
+      <section class="wrapper">
+        <div class="row">
+          <div class="center-panel">
+            <h2 class="page-heading"><strong>AngularJS Hello World</strong></h2>
+             <div class="center-panel">
+                <p>When writing an AngularJS app, we write the behavior and interaction together alongside the presentation. </p>
+                <p>Let’s write the Classic Hello World in AngularJS. In this simple application, user provides input via an input field, and as the user is typing in this input field, the UI gets updated with the latest value from input field.</p>
+                <p>Let’s look at the simplest app you can build with AngularJS:</p>
+                <p><iframe style="width: 100%; height: 300px" src="https://embed.plnkr.co/QzuZMWVV0AuidvNV6Qie" frameborder="1" allowfullscren="allowfullscren"></iframe></p>
+                <p>Let's look into the code</p>
+                <h2>1) Load AngularJS source code : </h2>
+                <p>FirsWe need tot, load the AngularJS source code, which can be found with google hosted libraries. You may prefer to download and keep it in your project locally.</p>
+                <h2>2) Bootstrap AngularJS: </h2>
+                <p>An AngularJS application is bootstrapped using ng-app directive. This is THE MOST IMPORTANT directive in AngularJS. It refers to the part of your HTML which will be controlled/managed by AngularJS. In this example, we have used it on html tag, that means AngularJS will control the whole html. You can also put this tag on a specific element. In that case, only that element and it’s child elements will be controlled by AngularJS. Anything outside will remain inaccessible to AngularJS. In this example I insert the ng-app attribute into the body element</p>
+                <pre>
+                  <code class="language-markup">
+                    &lt;html ng-app&gt;
+                    &lt;input type="text" ng-model="Name"&gt;
+                  </code>
+                </pre>
+                <h2>3) Data binding:</h2>
+                <p>
+                  Look at input tag, it has an AngularJS directive called <strong>ng-model</strong>. The ng-model directive is used with input fields to get access to the user input into JavaScript variables. Here, we tell AngularJS to store the value that the user types into this field in a javascript variable called <strong>name</strong>.
+                </p>
+                <p>
+                  We have also used another directive called <strong>ng-bind</strong>. ng-bind and the double-curly notation {{ }} are almost same and can be used interchangeably, as we used above. ng-bind & {{variable }} notation are used to get the value from the variable referred by ng-model and display that value in the tag ng-bind is applied on [or on the place {{ variable }} is used], and keeping the value up to date if it changes. This is known as one-way data-binding, where we take data coming from any source (key-in by user, from server), and update the DOM instantly.
+              </div>
+              <a class="btn btn-primary pull-left" href="index.html">AngularJs Features</a>
+              <a class="btn btn-primary pull-right" href="expressions.html">Expressions & Modules</a>
+              
+          </div>
+
+        </div>
+
+      </section>
+    </section>
+
+  </section>
+  <!-- container section start -->
+
+  <!-- javascripts -->
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery-ui-1.10.4.min.js"></script>
+  <script src="js/jquery-1.8.3.min.js"></script>
+  <script type="text/javascript" src="js/jquery-ui-1.9.2.custom.min.js"></script>
+  <!-- bootstrap -->
+  <script src="js/bootstrap.min.js"></script>
+  <!-- nice scroll -->
+  <script src="js/jquery.scrollTo.min.js"></script>
+  <script src="js/jquery.nicescroll.js" type="text/javascript"></script>
+
+  <script src="js/angular.min.js"></script>
+
+
+  <!--custome script for all page-->
+  <script src="js/scripts.js"></script>
+  <script src="js/prism.js"></script>
+
+
+  <script>
+    //knob
+    $(function() {
+      $(".knob").knob({
+        'draw': function() {
+          $(this.i).val(this.cv + '%')
+        }
+      })
+    });
+
+
+    //custom select box
+
+    $(function() {
+      $('select.styled').customSelect();
+    });
+  </script>
+
+</body>
+
+</html>

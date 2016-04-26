@@ -75,7 +75,13 @@ table tr th { color: #688a7e;}
 }
 .center-panel{
     margin:30px;
+    font-size: 18px;
     
+}
+.syntax{
+     background-color: #ffcc99;
+     margin-left:10px;
+     margin-right:10px;
 }
 
 /*login page*/
@@ -1101,7 +1107,7 @@ div[data-role="editor-toolbar"] {
 .panel .panel-heading i {
   width: 30px;
   display: inline-block;
-  font-size: 14px;
+  font-size: 20px;
   border-right:1px solid #e6e6e6 ;
 }
 .panel .panel-heading ul li {
@@ -1113,7 +1119,7 @@ div[data-role="editor-toolbar"] {
   height: 100%;
   width: auto;
   display: inline-block;
-  font-size: 14px;
+  font-size: 20px;
   position: relative;
   margin: 0;
   line-height: 34px;
